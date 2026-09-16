@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cosmic-projection"
+version = "0.1.0"
+description = "Area-weighted 3-D projection of spherical (HEALPix) maps"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.23", "healpy>=1.16"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+# pick the wheel matching your CUDA runtime; cupy-cuda12x also works with CUDA 13
+gpu = ["cupy-cuda12x>=13"]
+
+[tool.setuptools]
+packages = ["cosmic_projection"]
+
+[tool.pytest.ini_options]
+testpaths = ["cosmic_projection/tests"]

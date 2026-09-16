@@ -1,0 +1,6 @@
+numpy>=1.23
+healpy>=1.16
+# dev / tests
+pytest>=7
+# optional GPU backend (install the wheel matching your CUDA runtime), e.g.:
+#   pip install cupy-cuda12x

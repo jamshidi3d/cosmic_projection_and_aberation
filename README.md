@@ -1,6 +1,6 @@
-# skewness_abberation_relation
+# Cosmic projection & aberration
 
-PhD research code on the **skewness–aberration relation** (CMB aberration / Doppler-boosting
+PhD research code on the techniques of adding Doppler aberration to a cosmic 2d map (CMB aberration / Doppler-boosting
 studies).
 
 ## Contents
